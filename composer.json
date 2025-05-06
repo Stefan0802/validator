@@ -1,0 +1,21 @@
+{
+    "name": "stefan0802/validator",
+    "description": "A simple validation library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stefan0802",
+            "email": "stpa.leonov@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Validators\\": "src/"
+        }
+    }
+}
